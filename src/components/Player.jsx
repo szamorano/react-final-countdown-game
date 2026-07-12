@@ -8,6 +8,7 @@ const [enteredPlayerName, setEnteredPlayerName] = useState('');
 
 function handleClick() {
   setEnteredPlayerName(playerName.current.value)
+  playerName.current.value = '';
 }
 
   return (
